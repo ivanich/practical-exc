@@ -93,7 +93,7 @@ jobs:
           terraform_version: 1.8.5
 
       - name: Set up Terragrunt
-        uses: gruntwork-io/terragrunt-action@v2
+        uses: gruntwork-io/terragrunt-action@v3
         with:
           tg_version: 0.67.6
           tofu_version: 1.8.2
